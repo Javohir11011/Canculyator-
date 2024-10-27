@@ -139,7 +139,7 @@ class Kanculyator(QWidget):
         btn = self.sender()
         self.matn += btn.text()
         self.edit.setText(self.matn)
-
+    print("Hammasi joyida")
     def tozala(self):
         self.matn = ""
         self.edit.setText(self.matn)
